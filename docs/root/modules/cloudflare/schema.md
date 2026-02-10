@@ -107,6 +107,7 @@ Represents a DNS Zone in Cloudflare.
 | foundation_dns | The zone is setup with Foundation DNS |
 | page_rule_quota | Number of Page Rules a zone can have |
 | phishing_detected | The zone has been flagged for phishing |
+| plan_name | The name of the subscribed plan |
 | modified_on | When the zone was last modified |
 | name | The domain name |
 | original_dnshost | DNS host at the time of switching to Cloudflare |
