@@ -22,6 +22,7 @@ class CloudflareZoneNodeProperties(CartographyNodeProperties):
     foundation_dns: PropertyRef = PropertyRef("meta.foundation_dns")
     page_rule_quota: PropertyRef = PropertyRef("meta.page_rule_quota")
     phishing_detected: PropertyRef = PropertyRef("meta.phishing_detected")
+    plan_name: PropertyRef = PropertyRef("plan.name")
     modified_on: PropertyRef = PropertyRef("modified_on")
     name: PropertyRef = PropertyRef("name")
     original_dnshost: PropertyRef = PropertyRef("original_dnshost")
